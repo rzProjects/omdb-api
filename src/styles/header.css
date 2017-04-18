@@ -1,0 +1,40 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    min-height: 60px;
+    z-index: 1000;
+}
+
+.main-title {
+    font-size: 1.4em;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1025px;
+    margin: auto;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    padding: 1em;
+    transition: .2s;
+}
+
+.main-nav a:hover,
+.main-nav .active {
+    color: #fff;
+    background: #c1c1c1;
+}

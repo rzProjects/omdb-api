@@ -1,0 +1,24 @@
+{
+  "name": "bb-embrace-exam",
+  "version": "0.1.0",
+  "author": "Brandon Blackmon",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.0",
+    "cross-env": "^4.0.0",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^2.7.0",
+    "redux": "^3.6.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "cross-env NODE_PATH=./src react-scripts start",
+    "build": "cross-env NODE_PATH=./src react-scripts build"
+  }
+}

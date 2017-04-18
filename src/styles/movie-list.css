@@ -1,0 +1,20 @@
+.movie-list {
+    width: 90%;
+    max-width: 1025px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari */
+    align-items: center;
+}
+
+.movie-list li {
+    float: left;
+    margin: 0;
+    margin: 20px 20px;
+    width: 200px;
+    position: relative;
+    border-radius: 3px;
+}

@@ -1,0 +1,18 @@
+.search-list {
+    width: 90%;
+    max-width: 1025px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-list li {
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-list li:hover {
+    box-shadow: 0px 2px 0 rgba(0, 0, 0, 0.2);
+}

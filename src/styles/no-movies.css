@@ -1,0 +1,15 @@
+.no-movies  {
+    color: #7bcbc4;
+    height: 140px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 1.25em;
+    width: 100%;
+}
+
+.icon-movie {
+    font-size: 6em;
+    margin-bottom: 0;
+    color: #7bcbc4;
+    display: block;
+}

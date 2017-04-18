@@ -1,0 +1,46 @@
+.movie-wrap {
+    background-color: #fff;
+    margin-bottom: .8em;
+    height: 335px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.movie-wrap .movie-info {
+    font-size: 14px;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+}
+
+.icn-star {
+    font-weight: 100;
+    font-size: 13x;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    cursor: pointer;
+    color: goldenrod;
+    display: none;
+}
+
+.visible-star {
+    display: block;
+}
+
+.movie-wrap:hover .icn-star {
+    display: block;
+}
