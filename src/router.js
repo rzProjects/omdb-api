@@ -9,7 +9,6 @@ import MovieDetailContainer from 'containers/movie-detail-container';
 import Home from 'components/home';
 import Favorites from 'components/favorites';
 import SearchList from 'components/search-list';
-import NotFound from 'components/not-found';
 
 const routes = (
     <Router history={browserHistory}>
